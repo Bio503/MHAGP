@@ -1,5 +1,5 @@
 # MHAGP
-## Predicting disease genes based on multi-head attention fusion
+### Predicting disease genes based on multi-head attention fusion
 
 This paper proposes an approach to predict the pathogenic gene based on multi-head attention fusion (MHAGP). Firstly, the heterogeneous biological information network of disease genes is constructed by integrating multiple biomedical knowledge databases. Secondly, two graph representation learning algorithms are used to capture the feature vectors of gene-disease pairs from the network, and the features are fused by introducing multi-head attention. Finally, we use a multi-layer perceptron model to predict the gene-disease association.
 
@@ -18,6 +18,8 @@ The code has been tested running under Python 3.7. The  required main packages a
 
 
 **Python implementation files for MHAGP**
+
+
      1. line_embedding.py and node2vec_embedding.py are used to extract three network features.
 
      2. feature_concatenate.ipynb - Jupyter notebook for concatenate the gene-disease features of the three networks extracted by line and node2vec algorithm.
@@ -26,13 +28,12 @@ The code has been tested running under Python 3.7. The  required main packages a
 
 **Usage**
 
-### Cloning the repo
+#### Cloning the repo
 Code tested only in NVIDIA GeForce RTX 3090.
 
-### shell
+#### shell
 git clone https://github.com/axing209/MHAGP.git
 
 For any doubts or suggestions please contact：
-axing209729@gmail.com
-ldr@stu.xju.edu.cn
+axing209729@gmail.com or ldr@stu.xju.edu.cn.
 
