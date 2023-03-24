@@ -16,6 +16,8 @@ The code has been tested running under Python 3.7. The  required main packages a
 * h5py=2.10
 * openssl=1.1
 
+**Data**
+The data in this study are derived from the paper "Wang, L., Shang, M., Dai, Q. et al. Prediction of lncRNA-disease association based on a Laplace normalized random walk with restart algorithm on heterogeneous networks. BMC Bioinformatics 23, 5 (2022). ".
 
 **Python implementation files for MHAGP**
 
@@ -32,8 +34,14 @@ The code has been tested running under Python 3.7. The  required main packages a
 Code tested only in NVIDIA GeForce RTX 3090.
 
 #### shell
-git clone https://github.com/axing209/MHAGP.git
+git clone https://github.com/Bio503/MHAGP.git
+
+In addition, we uploaded our experiments in both the docker hub and the code ocean. The source and download method are as follows:
+
+docker hub: docker pull bio503/mhagp
+
+code ocean: https://codeocean.com/capsule/2074362
 
 For any doubts or suggestions please contact：
-axing209729@gmail.com or ldr@stu.xju.edu.cn.
+axing209729@gmail.com.
 
