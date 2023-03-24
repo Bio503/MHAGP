@@ -38,9 +38,9 @@ git clone https://github.com/Bio503/MHAGP.git
 
 In addition, we uploaded our experiments in both the docker hub and the code ocean. The source and download method are as follows:
 
-docker hub: docker pull bio503/mhagp
+* docker hub: docker pull bio503/mhagp
 
-code ocean: https://codeocean.com/capsule/2074362
+* code ocean: https://codeocean.com/capsule/2074362
 
 For any doubts or suggestions please contact：
 axing209729@gmail.com.
